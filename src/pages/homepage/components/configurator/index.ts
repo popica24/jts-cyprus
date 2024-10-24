@@ -1,3 +1,3 @@
-import Configurator from "./Configurator";
+// import Configurator from "./Configurator";
 
-export default Configurator
+// export default Configurator

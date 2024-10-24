@@ -12,7 +12,7 @@ type Props = {
 };
 
 const SystemPower = ({ system, setSystem }: Props) => {
-  const [selectedOption, setSelctedOption] = useState(0);
+  const [_selectedOption, setSelctedOption] = useState(0);
 
   const [page, setPage] = useState(1);
 
