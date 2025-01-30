@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 769);
@@ -32,11 +32,10 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { title: "About Us", url: "#about-us" },
-    { title: "Exclusive Offers", url: "#exclusive-offers" },
-    { title: "Testimonials", url: "#testimonials" },
-    { title: "Custom Pricing", url: "#custom-pricing" },
-    { title: "Our Projects", url: "#our-projects" },
+    { title: "Exclusive Offers", url: "/exclusive-offers" },
+    { title: "Testimonials", url: "/testimonials" },
+    { title: "Custom Pricing", url: "/custom-pricing" },
+    { title: "Our Projects", url: "/our-projects" },
   ];
 
   const bgColor = "white";
@@ -48,18 +47,20 @@ const Navbar = () => {
         // Laptop Navbar Code Here
         <nav className={`${bgColor} container mx-auto`}>
           <div className="flex justify-between mx-auto items-center py-4 lg:px-24">
-            <img
-              className="w-[120px] lg:w-[200px]"
-              src="static/logo.webp"
-              alt=""
-            />
+            <Link to={"/"}>
+              <img
+                className="w-[120px] lg:w-[200px]"
+                src="static/logo.webp"
+                alt=""
+              />
+            </Link>
             <ul className="flex gap-8 md:gap-16 items-center justify-center text-center cursor-pointer">
               {navLinks.map((link, index) => (
                 <li
                   key={index}
                   className="text-[#16436A] text-xs whitespace-nowrap font-medium border-b border-white hover:border-[#16436A] underline-offset-4 transition-colors"
                 >
-                  <a href={link.url}>{link.title}</a>
+                  <Link to={link.url}>{link.title}</Link>
                 </li>
               ))}
             </ul>

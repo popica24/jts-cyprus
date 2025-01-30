@@ -1,6 +1,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
+import { Link } from "react-router-dom";
 
 const CarouselHero = () => {
   return (
@@ -38,12 +39,12 @@ const CarouselHero = () => {
           <p className="text-white font-medium text-base md:text-xl my-2 drop-shadow-md">
             Custom pricing made easy for you
           </p>
-          <a
-            href="#custom-pricing"
+          <Link
+            to="custom-pricing"
             className="text-white underline underline-offset-2 drop-shadow-md hover:underline-offset-4 transition-all"
           >
             See calculator here
-          </a>
+          </Link>
         </div>
       </ParallaxBanner>
       <ParallaxBanner className="w-full h-[500px] bg-cover rounded-xl z-10 bg-center relative">

@@ -1,0 +1,18 @@
+1. Update brands cards to the following:
+1st row : Inverters
+solax
+solis
+deye
+huawei
+fronius
+victron
+sungrow
+
+2nd row : Photovoltaic Panels
+canadian solar
+trina
+longi
+jinko
+jasolar
+astroenergy
+rise n solar

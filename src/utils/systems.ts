@@ -1,7 +1,8 @@
-import { system } from "./types";
+import { PanelProps, SystemProps } from "./types";
 
-export const monofazedSystems : system[] = [
+export const MonofazedSystems : SystemProps[] = [
   {
+    id:1,
     kw: 3.48,
     putereSistem: "3.48 kW Monofazat",
     stocare: "10.34 kW",
@@ -10,6 +11,7 @@ export const monofazedSystems : system[] = [
     innerPrice: 3000
   },
   {
+    id:2,
     kw: 4.35,
     putereSistem: "4.35 kW Monofazat",
     stocare: "10.34 kW",
@@ -18,6 +20,7 @@ export const monofazedSystems : system[] = [
     innerPrice: 3000
   },
   {
+    id:3,
     kw: 5.22,
     putereSistem: "5.22 kW Monofazat",
     stocare: "10.34 kW",
@@ -26,6 +29,7 @@ export const monofazedSystems : system[] = [
     innerPrice: 3000
   },
   {
+    id:4,
     kw: 6.09,
     putereSistem: "6.09 kW Monofazat",
     stocare: "10.34 kW",
@@ -34,6 +38,7 @@ export const monofazedSystems : system[] = [
     innerPrice: 4000
   },
   {
+    id:5,
     kw: 6.96,
     putereSistem: "6.96 kW Monofazat",
     stocare: "10.34 kW",
@@ -42,6 +47,7 @@ export const monofazedSystems : system[] = [
     innerPrice: 5000
   },
   {
+    id:6,
     kw: 7.83,
     putereSistem: "7.83 kW Monofazat",
     stocare: "10.34 kW",
@@ -50,6 +56,7 @@ export const monofazedSystems : system[] = [
     innerPrice: 6000
   },
   {
+    id:7,
     kw: 8.70,
     putereSistem: "8.70 kW Monofazat",
     stocare: "10.34 kW",
@@ -58,6 +65,7 @@ export const monofazedSystems : system[] = [
     innerPrice: 7000
   },
   {
+    id:8,
     kw: 9.57,
     putereSistem: "9.57 kW Monofazat",
     stocare: "10.34 kW",
@@ -66,6 +74,7 @@ export const monofazedSystems : system[] = [
     innerPrice: 8000
   },
   {
+    id:9,
     kw: 10.44,
     putereSistem: "10.44 kW Monofazat",
     stocare: "10.34 kW",
@@ -73,10 +82,11 @@ export const monofazedSystems : system[] = [
     numarPanouri: 24,
     innerPrice: 9000
   }
-  ];
+];
 
-export const trifazedSystems : system[] = [
+export const TrifazedSystems : SystemProps[] = [
   {
+    id:1,
     kw: 5.22,
     putereSistem: "5.22 kW Trifazat",
     stocare: "10.34 kW",
@@ -85,6 +95,7 @@ export const trifazedSystems : system[] = [
     innerPrice: 5500
   },
   {
+    id:2,
     kw: 6.09,
     putereSistem: "6.09 kW Trifazat",
     stocare: "10.34 kW",
@@ -93,6 +104,7 @@ export const trifazedSystems : system[] = [
     innerPrice: 6500
   },
   {
+    id:3,
     kw: 6.96,
     putereSistem: "6.96 kW Trifazat",
     stocare: "10.34 kW",
@@ -101,6 +113,7 @@ export const trifazedSystems : system[] = [
     innerPrice: 7500
   },
   {
+    id:4,
     kw: 7.83,
     putereSistem: "7.83 kW Trifazat",
     stocare: "10.34 kW",
@@ -109,6 +122,7 @@ export const trifazedSystems : system[] = [
     innerPrice: 8500
   },
   {
+    id:5,
     kw: 8.70,
     putereSistem: "8.70 kW Trifazat",
     stocare: "10.34 kW",
@@ -117,6 +131,7 @@ export const trifazedSystems : system[] = [
     innerPrice: 9500
   },
   {
+    id:6,
     kw: 9.57,
     putereSistem: "9.57 kW Trifazat",
     stocare: "10.34 kW",
@@ -125,6 +140,7 @@ export const trifazedSystems : system[] = [
     innerPrice: 10500
   },
   {
+    id:7,
     kw: 10.44,
     putereSistem: "10.44 kW Trifazat",
     stocare: "10.34 kW",
@@ -133,6 +149,7 @@ export const trifazedSystems : system[] = [
     innerPrice: 11500
   },
   {
+    id:8,
     kw: 11.31,
     putereSistem: "11.31 kW Trifazat",
     stocare: "10.34 kW",
@@ -141,6 +158,7 @@ export const trifazedSystems : system[] = [
     innerPrice: 12500
   },
   {
+    id:9,
     kw: 12.18,
     putereSistem: "12.18 kW Trifazat",
     stocare: "10.34 kW",
@@ -149,6 +167,7 @@ export const trifazedSystems : system[] = [
     innerPrice: 13500
   },
   {
+    id:10,
     kw: 13.05,
     putereSistem: "13.05 kW Trifazat",
     stocare: "10.34 kW",
@@ -157,6 +176,7 @@ export const trifazedSystems : system[] = [
     innerPrice: 14500
   },
   {
+    id:11,
     kw: 13.92,
     putereSistem: "13.92 kW Trifazat",
     stocare: "10.34 kW",
@@ -165,6 +185,7 @@ export const trifazedSystems : system[] = [
     innerPrice: 15500
   },
   {
+    id:12,
     kw: 14.79,
     putereSistem: "14.79 kW Trifazat",
     stocare: "10.34 kW",
@@ -173,6 +194,7 @@ export const trifazedSystems : system[] = [
     innerPrice: 16500
   },
   {
+    id:13,
     kw: 15.66,
     putereSistem: "15.66 kW Trifazat",
     stocare: "10.34 kW",
@@ -181,3 +203,9 @@ export const trifazedSystems : system[] = [
     innerPrice: 17500
   }
 ]
+
+// export const Panels : PanelProps[] = [
+//   {
+    
+//   }
+// ]
